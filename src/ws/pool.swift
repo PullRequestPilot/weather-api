@@ -1,0 +1,1 @@
+// WebSocket pool with proper cleanup
