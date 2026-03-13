@@ -1,0 +1,17 @@
+type Query {
+  weather(city: String!): Weather
+  forecast(city: String!, days: Int = 7): [Forecast!]!
+}
+
+type Weather {
+  temperature: Float!
+  humidity: Float!
+  description: String!
+}
+
+type Forecast {
+  date: String!
+  high: Float!
+  low: Float!
+  precipitation: Float!
+}
