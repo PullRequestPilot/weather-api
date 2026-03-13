@@ -1,0 +1,1 @@
+type Query { weather(city: String!): Weather }
